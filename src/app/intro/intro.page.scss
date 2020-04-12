@@ -1,0 +1,43 @@
+/*ion-slide {
+
+    height: 80vh;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+ion-content {
+    --overflow: hidden;
+    //bloquei a rolagem vertical da tela
+}
+
+img{
+    max-height: 400px;;
+}
+
+h2{
+font-size: 40px;
+font-weight: lighter;
+margin-top: 270px;
+text-align: center;
+margin-bottom: 60px;
+}*/
+
+.btn-primary{
+
+    height: 60px;
+}
+
+ion-slides{
+    --bullet-background: grey;
+    --bullet-background-active: #8890B2;
+    
+}
+
+@media screen and (max-height: 775px){
+    img{
+        width: 70%;
+    }
+
+}

@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Feed</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <style>
+  div.a {
+
+        text-align: center;
+
+  }
+
+  </style>
+
+  <div class = "a" >
+    <h1>Márcia Vital</h1>
+  </div>
+
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/images/avatar.png">
+      </ion-avatar>    
+        <div>
+          <ion-card-header>
+            <ion-card-title class="feed_title">{{ nome_usuario }}</ion-card-title>
+            <ion-card-subtitle class="feed_date">November 21, 1996</ion-card-subtitle>
+          </ion-card-header>
+        </div>
+    </ion-item>
+
+    <img src="assets/images/feed_image.png">
+
+    <ion-card-content>
+      <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+    </ion-card-content>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col class="ion-align-self-center">
+        <button ion-button icon-start clear small>
+          <ion-icon name="heart-outline"></ion-icon>
+          <div>12 Likes</div>
+        </button>
+      </ion-col>
+      <ion-col class="ion-align-self-center">
+        <button ion-button icon-start clear small>
+          <ion-icon name="chatbubble-outline"></ion-icon>
+          <div>4 Comments</div>
+        </button>
+      </ion-col>
+      <ion-col class="ion-align-self-center">
+        <ion-note>
+          11h ago
+        </ion-note>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+</ion-content>
